@@ -13,8 +13,8 @@ process.on("uncaughtException", (err)=>{
         process.exit(1)
     })
 })
-const server = app.listen(process.env.PORT,()=>{
-    console.log(`Server is working on ${process.env.PORT}`)
+const server = app.listen(4000,()=>{
+    console.log(`Server is working on ${4000}`)
 })
 //
 process.on("unhandledRejection", (err)=>{
